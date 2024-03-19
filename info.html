@@ -11,13 +11,14 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/list-style.css">
     </head>
     <body>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#top" target="_top">
+                <a class="navbar-brand" href="index.html" target="_top">
                     <img src="img/logo.png" alt="Logo de ComboSale" width="40" height="auto">
                 </a>
                 <a class="navbar-brand" href="index.html" target="_top">ComboSale</a>
@@ -25,7 +26,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#top">Info</a>
+                            <a class="nav-link text-uppercase" href="#info">Info</a>
                         </li>
                         <li class="nav-item"><p class="navbar-text text-uppercase font-weight-bold" aria-current="page" href="#!">Contáctenos a:</p></li>
                         <li class="nav-item"><p class="navbar-text text-uppercase" href="#!">+53 59806480</p></li>
@@ -50,14 +51,22 @@
                 <div class="row">
                     <!-- Columna de la imagen -->
                     <div class="col-lg-6">
-                        <img src="img/info-image.jpg" class="img-fluid img-thumbnail" alt="Imagen de la marca">
+                        <img src="img/info-image.jpg" class="img-fluid rounded" alt="Imagen de la marca">
                     </div>
                     
                     <!-- Columna del postit con la información de la marca -->
                     <div class="col-lg-6 d-flex align-items-center">
                         <div class="postit p-4">
-                            <h3>Información de la Marca</h3>
-                            <p>Aquí puedes agregar toda la información relevante sobre tu marca.</p>
+                            <h3 id="info" class="font-weight-bold">Información</h3>
+                            <list class="list-group">
+                                <li>💥Las mejores ofertas de combo desde La Habana hasta Santiago de Cuba💥.</li>
+                                <li>😌Calidad garantizada. 🛒 Entregas a toda Cuba🧭.</li>
+                                <li>🚗Con domicilio hasta la puerta 🚪 de su casa 🏡.</li>
+                                <li>🙋🏼‍♀Si usted lo quiere para Camagüey o Guáimaro hay rebajas😁.</li>
+                                <li>💸Primero se entrega y luego se efectúa el pago.</li>
+                                <li>📲Interesados escriban por WhatsApp o pueden llamar.</li>
+                                <li>💵Pago vía Zelle, USD , Euro, CUP, PayPal.</li>
+                            </list>
                             <!-- Puedes añadir más contenido aquí según tus necesidades -->
                         </div>
                     </div>
